@@ -27,18 +27,18 @@
 #define TJS_strcmp			wcscmp
 #define TJS_strncpy			wcsncpy_s
 
-const tjs_char* TVPKAGNoLine = TJS_W("“Ç‚İ‚à‚¤‚Æ‚µ‚½ƒVƒiƒŠƒIƒtƒ@ƒCƒ‹ %1 ‚Í‹ó‚Å‚·");
-const tjs_char* TVPKAGCannotOmmitFirstLabelName = TJS_W("ƒVƒiƒŠƒIƒtƒ@ƒCƒ‹‚ÌÅ‰‚Ìƒ‰ƒxƒ‹–¼‚ÍÈ—ª‚Å‚«‚Ü‚¹‚ñ");
-const tjs_char* TVPInternalError = TJS_W("“à•”ƒGƒ‰[‚ª”­¶‚µ‚Ü‚µ‚½: at %1 line %2");
-const tjs_char* TVPKAGMalformedSaveData = TJS_W("xƒf[ƒ^‚ªˆÙí‚Å‚·Bƒf[ƒ^‚ª”j‘¹‚µ‚Ä‚¢‚é‰Â”\«‚ª‚ ‚è‚Ü‚·");
-const tjs_char* TVPKAGLabelNotFound = TJS_W("ƒVƒiƒŠƒIƒtƒ@ƒCƒ‹ %1 “à‚Éƒ‰ƒxƒ‹ %2 ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ");
-const tjs_char* TVPLabelOrScriptInMacro = TJS_W("ƒ‰ƒxƒ‹‚â iscript ‚Íƒ}ƒNƒ’†‚É‹Lq‚Å‚«‚Ü‚¹‚ñ");
-const tjs_char* TVPKAGInlineScriptNotEnd = TJS_W("[endscript] ‚Ü‚½‚Í @endscript ‚ªŒ©‚Â‚©‚è‚Ü‚¹‚ñ");
-const tjs_char* TVPKAGSyntaxError = TJS_W("ƒ^ƒO‚Ì•¶–@ƒGƒ‰[‚Å‚·B'[' ‚â ']' ‚Ì‘Î‰A\" ‚Æ \" ‚Ì‘Î‰AƒXƒy[ƒX‚Ì“ü‚ê–Y‚êA—]•ª‚È‰üsAmacro ` endmacro ‚Ì‘Î‰A•K—v‚È‘®«‚Ì•s‘«‚È‚Ç‚ğŠm”F‚µ‚Ä‚­‚¾‚³‚¢");
-const tjs_char* TVPKAGCallStackUnderflow = TJS_W("return ƒ^ƒO‚ª call ƒ^ƒO‚Æ‘Î‰‚µ‚Ä‚¢‚Ü‚¹‚ñ ( return ƒ^ƒO‚ª‘½‚¢ )");
-const tjs_char* TVPKAGReturnLostSync = TJS_W("ƒVƒiƒŠƒIƒtƒ@ƒCƒ‹‚É•ÏX‚ª‚ ‚Á‚½‚½‚ß return ‚Ì–ß‚èæˆÊ’u‚ğ“Á’è‚Å‚«‚Ü‚¹‚ñ");
-const tjs_char* TVPKAGSpecifyKAGParser = TJS_W("KAGParser ƒNƒ‰ƒX‚ÌƒIƒuƒWƒFƒNƒg‚ğw’è‚µ‚Ä‚­‚¾‚³‚¢");
-const tjs_char* TVPUnknownMacroName = TJS_W("ƒ}ƒNƒ \"%1\" ‚Í“o˜^‚³‚ê‚Ä‚¢‚Ü‚¹‚ñ");
+const tjs_char* TVPKAGNoLine = TJS_W("èª­ã¿è¾¼ã‚‚ã†ã¨ã—ãŸã‚·ãƒŠãƒªã‚ªãƒ•ã‚¡ã‚¤ãƒ« %1 ã¯ç©ºã§ã™");
+const tjs_char* TVPKAGCannotOmmitFirstLabelName = TJS_W("ã‚·ãƒŠãƒªã‚ªãƒ•ã‚¡ã‚¤ãƒ«ã®æœ€åˆã®ãƒ©ãƒ™ãƒ«åã¯çœç•¥ã§ãã¾ã›ã‚“");
+const tjs_char* TVPInternalError = TJS_W("å†…éƒ¨ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¾ã—ãŸ: at %1 line %2");
+const tjs_char* TVPKAGMalformedSaveData = TJS_W("æ ãƒ‡ãƒ¼ã‚¿ãŒç•°å¸¸ã§ã™ã€‚ãƒ‡ãƒ¼ã‚¿ãŒç ´æã—ã¦ã„ã‚‹å¯èƒ½æ€§ãŒã‚ã‚Šã¾ã™");
+const tjs_char* TVPKAGLabelNotFound = TJS_W("ã‚·ãƒŠãƒªã‚ªãƒ•ã‚¡ã‚¤ãƒ« %1 å†…ã«ãƒ©ãƒ™ãƒ« %2 ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“");
+const tjs_char* TVPLabelOrScriptInMacro = TJS_W("ãƒ©ãƒ™ãƒ«ã‚„ iscript ã¯ãƒã‚¯ãƒ­ä¸­ã«è¨˜è¿°ã§ãã¾ã›ã‚“");
+const tjs_char* TVPKAGInlineScriptNotEnd = TJS_W("[endscript] ã¾ãŸã¯ @endscript ãŒè¦‹ã¤ã‹ã‚Šã¾ã›ã‚“");
+const tjs_char* TVPKAGSyntaxError = TJS_W("ã‚¿ã‚°ã®æ–‡æ³•ã‚¨ãƒ©ãƒ¼ã§ã™ã€‚'[' ã‚„ ']' ã®å¯¾å¿œã€\" ã¨ \" ã®å¯¾å¿œã€ã‚¹ãƒšãƒ¼ã‚¹ã®å…¥ã‚Œå¿˜ã‚Œã€ä½™åˆ†ãªæ”¹è¡Œã€macro ã€œ endmacro ã®å¯¾å¿œã€å¿…è¦ãªå±æ€§ã®ä¸è¶³ãªã©ã‚’ç¢ºèªã—ã¦ãã ã•ã„");
+const tjs_char* TVPKAGCallStackUnderflow = TJS_W("return ã‚¿ã‚°ãŒ call ã‚¿ã‚°ã¨å¯¾å¿œã—ã¦ã„ã¾ã›ã‚“ ( return ã‚¿ã‚°ãŒå¤šã„ )");
+const tjs_char* TVPKAGReturnLostSync = TJS_W("ã‚·ãƒŠãƒªã‚ªãƒ•ã‚¡ã‚¤ãƒ«ã«å¤‰æ›´ãŒã‚ã£ãŸãŸã‚ return ã®æˆ»ã‚Šå…ˆä½ç½®ã‚’ç‰¹å®šã§ãã¾ã›ã‚“");
+const tjs_char* TVPKAGSpecifyKAGParser = TJS_W("KAGParser ã‚¯ãƒ©ã‚¹ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’æŒ‡å®šã—ã¦ãã ã•ã„");
+const tjs_char* TVPUnknownMacroName = TJS_W("ãƒã‚¯ãƒ­ \"%1\" ã¯ç™»éŒ²ã•ã‚Œã¦ã„ã¾ã›ã‚“");
 
 #define TVPThrowInternalError \
 	TVPThrowExceptionMessage(TVPInternalError, __FILE__,  __LINE__)
