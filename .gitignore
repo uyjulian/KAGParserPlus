@@ -1,35 +1,18 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
+*.pdb
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
+*.exp
 *.log
 *.tlog
-*.lastbuildstate
 *.sdf
-*.opensdf
-*.idb
+*.suo
+*.user
+*.res
+*.sbr
+.vs/
+*.dll
+*.o
+*.7z
+*.dep.make
+build-*/
+
